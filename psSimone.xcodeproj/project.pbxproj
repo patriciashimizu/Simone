@@ -14,6 +14,8 @@
 		9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */; };
 		9B7455E51EEF08D800C6DD54 /* psSimoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455E41EEF08D800C6DD54 /* psSimoneTests.swift */; };
 		9B7455F01EEF08D800C6DD54 /* psSimoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455EF1EEF08D800C6DD54 /* psSimoneUITests.swift */; };
+		9B7456001EEF09D100C6DD54 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455FE1EEF09D100C6DD54 /* fonts */; };
+		9B7456011EEF09D100C6DD54 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455FF1EEF09D100C6DD54 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B7455EB1EEF08D800C6DD54 /* psSimoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = psSimoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7455EF1EEF08D800C6DD54 /* psSimoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psSimoneUITests.swift; sourceTree = "<group>"; };
 		9B7455F11EEF08D800C6DD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7455FE1EEF09D100C6DD54 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		9B7455FF1EEF09D100C6DD54 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,9 @@
 		9B7455CE1EEF08D700C6DD54 /* psSimone */ = {
 			isa = PBXGroup;
 			children = (
-				9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */,
+				9B7455FD1EEF096B00C6DD54 /* assets */,
 				9B7455D11EEF08D800C6DD54 /* ViewController.swift */,
 				9B7455D31EEF08D800C6DD54 /* Main.storyboard */,
-				9B7455D61EEF08D800C6DD54 /* Assets.xcassets */,
-				9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */,
-				9B7455DB1EEF08D800C6DD54 /* Info.plist */,
 			);
 			path = psSimone;
 			sourceTree = "<group>";
@@ -123,6 +124,19 @@
 				9B7455F11EEF08D800C6DD54 /* Info.plist */,
 			);
 			path = psSimoneUITests;
+			sourceTree = "<group>";
+		};
+		9B7455FD1EEF096B00C6DD54 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9B7455FE1EEF09D100C6DD54 /* fonts */,
+				9B7455FF1EEF09D100C6DD54 /* images */,
+				9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */,
+				9B7455D61EEF08D800C6DD54 /* Assets.xcassets */,
+				9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */,
+				9B7455DB1EEF08D800C6DD54 /* Info.plist */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7456011EEF09D100C6DD54 /* images in Resources */,
 				9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */,
 				9B7455D71EEF08D800C6DD54 /* Assets.xcassets in Resources */,
 				9B7455D51EEF08D800C6DD54 /* Main.storyboard in Resources */,
+				9B7456001EEF09D100C6DD54 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
