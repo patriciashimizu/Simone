@@ -14,8 +14,14 @@
 		9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */; };
 		9B7455E51EEF08D800C6DD54 /* psSimoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455E41EEF08D800C6DD54 /* psSimoneTests.swift */; };
 		9B7455F01EEF08D800C6DD54 /* psSimoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455EF1EEF08D800C6DD54 /* psSimoneUITests.swift */; };
-		9B7456001EEF09D100C6DD54 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455FE1EEF09D100C6DD54 /* fonts */; };
-		9B7456011EEF09D100C6DD54 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455FF1EEF09D100C6DD54 /* images */; };
+		9BB315121EF31560005C1D66 /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3150B1EF31560005C1D66 /* b2.png */; };
+		9BB315131EF31560005C1D66 /* b8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3150C1EF31560005C1D66 /* b8.png */; };
+		9BB315141EF31560005C1D66 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3150D1EF31560005C1D66 /* bar.png */; };
+		9BB315151EF31560005C1D66 /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3150E1EF31560005C1D66 /* high.png */; };
+		9BB315161EF31560005C1D66 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3150F1EF31560005C1D66 /* new.png */; };
+		9BB315171EF31560005C1D66 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB315101EF31560005C1D66 /* play.png */; };
+		9BB315181EF31560005C1D66 /* simone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB315111EF31560005C1D66 /* simone.png */; };
+		9BB3151A1EF3156C005C1D66 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +55,14 @@
 		9B7455EB1EEF08D800C6DD54 /* psSimoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = psSimoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7455EF1EEF08D800C6DD54 /* psSimoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psSimoneUITests.swift; sourceTree = "<group>"; };
 		9B7455F11EEF08D800C6DD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B7455FE1EEF09D100C6DD54 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		9B7455FF1EEF09D100C6DD54 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9BB3150B1EF31560005C1D66 /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b2.png; path = working/images/b2.png; sourceTree = SOURCE_ROOT; };
+		9BB3150C1EF31560005C1D66 /* b8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b8.png; path = working/images/b8.png; sourceTree = SOURCE_ROOT; };
+		9BB3150D1EF31560005C1D66 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = working/images/bar.png; sourceTree = SOURCE_ROOT; };
+		9BB3150E1EF31560005C1D66 /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = high.png; path = working/images/high.png; sourceTree = SOURCE_ROOT; };
+		9BB3150F1EF31560005C1D66 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new.png; path = working/images/new.png; sourceTree = SOURCE_ROOT; };
+		9BB315101EF31560005C1D66 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = working/images/play.png; sourceTree = SOURCE_ROOT; };
+		9BB315111EF31560005C1D66 /* simone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simone.png; path = working/images/simone.png; sourceTree = SOURCE_ROOT; };
+		9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Beatles Light Light.ttf"; path = "working/fonts/Beatles Light Light.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,14 +141,36 @@
 		9B7455FD1EEF096B00C6DD54 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				9B7455FE1EEF09D100C6DD54 /* fonts */,
-				9B7455FF1EEF09D100C6DD54 /* images */,
+				9BB3150A1EF3154F005C1D66 /* Images */,
+				9BB315091EF31540005C1D66 /* Fonts */,
 				9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */,
 				9B7455D61EEF08D800C6DD54 /* Assets.xcassets */,
 				9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */,
 				9B7455DB1EEF08D800C6DD54 /* Info.plist */,
 			);
 			name = assets;
+			sourceTree = "<group>";
+		};
+		9BB315091EF31540005C1D66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9BB3150A1EF3154F005C1D66 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3150B1EF31560005C1D66 /* b2.png */,
+				9BB3150C1EF31560005C1D66 /* b8.png */,
+				9BB3150D1EF31560005C1D66 /* bar.png */,
+				9BB3150E1EF31560005C1D66 /* high.png */,
+				9BB3150F1EF31560005C1D66 /* new.png */,
+				9BB315101EF31560005C1D66 /* play.png */,
+				9BB315111EF31560005C1D66 /* simone.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +280,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7456011EEF09D100C6DD54 /* images in Resources */,
+				9BB315131EF31560005C1D66 /* b8.png in Resources */,
+				9BB3151A1EF3156C005C1D66 /* Beatles Light Light.ttf in Resources */,
+				9BB315151EF31560005C1D66 /* high.png in Resources */,
+				9BB315171EF31560005C1D66 /* play.png in Resources */,
 				9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */,
+				9BB315121EF31560005C1D66 /* b2.png in Resources */,
+				9BB315161EF31560005C1D66 /* new.png in Resources */,
+				9BB315141EF31560005C1D66 /* bar.png in Resources */,
 				9B7455D71EEF08D800C6DD54 /* Assets.xcassets in Resources */,
+				9BB315181EF31560005C1D66 /* simone.png in Resources */,
 				9B7455D51EEF08D800C6DD54 /* Main.storyboard in Resources */,
-				9B7456001EEF09D100C6DD54 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +561,7 @@
 				9B7455F61EEF08D800C6DD54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B7455F71EEF08D800C6DD54 /* Build configuration list for PBXNativeTarget "psSimoneTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +570,7 @@
 				9B7455F91EEF08D800C6DD54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B7455FA1EEF08D800C6DD54 /* Build configuration list for PBXNativeTarget "psSimoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +579,7 @@
 				9B7455FC1EEF08D800C6DD54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
