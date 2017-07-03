@@ -28,6 +28,7 @@
 		9B93F8B51F0AD91F0008C690 /* WrongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B41F0AD91F0008C690 /* WrongController.swift */; };
 		9B93F8B71F0AD9A60008C690 /* SimoneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B61F0AD9A60008C690 /* SimoneBrain.swift */; };
 		9B93F8B91F0ADA150008C690 /* SingletonShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B81F0ADA150008C690 /* SingletonShared.swift */; };
+		9B93F8BB1F0AE8570008C690 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B93F8BA1F0AE8570008C690 /* 120.png */; };
 		9BB3151A1EF3156C005C1D66 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		9B93F8B41F0AD91F0008C690 /* WrongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongController.swift; sourceTree = "<group>"; };
 		9B93F8B61F0AD9A60008C690 /* SimoneBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimoneBrain.swift; sourceTree = "<group>"; };
 		9B93F8B81F0ADA150008C690 /* SingletonShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonShared.swift; sourceTree = "<group>"; };
+		9B93F8BA1F0AE8570008C690 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120.png; path = images/120.png; sourceTree = "<group>"; };
 		9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Beatles Light Light.ttf"; path = "working/fonts/Beatles Light Light.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -188,6 +190,7 @@
 		9BB3150A1EF3154F005C1D66 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B93F8BA1F0AE8570008C690 /* 120.png */,
 				9B93F8AF1F0AD1C90008C690 /* reset.png */,
 				9B93F89D1F0AB8B40008C690 /* b2.png */,
 				9B93F89E1F0AB8B40008C690 /* b8.png */,
@@ -321,6 +324,7 @@
 				9B93F8A81F0AB8B40008C690 /* bar.png in Resources */,
 				9B7455D71EEF08D800C6DD54 /* Assets.xcassets in Resources */,
 				9B7455D51EEF08D800C6DD54 /* Main.storyboard in Resources */,
+				9B93F8BB1F0AE8570008C690 /* 120.png in Resources */,
 				9B93F8AE1F0AB8B40008C690 /* simone.png in Resources */,
 				9B93F8AD1F0AB8B40008C690 /* ring.png in Resources */,
 			);
