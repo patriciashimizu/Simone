@@ -3,6 +3,8 @@ import UIKit
 //==================================================
 class SingletonShared {
     //---------------------------------
+    var highScore = "0"
+    //---------------------------------
     static let sigletonSharedInstance = SingletonShared()
     //---------------------------------
 }
