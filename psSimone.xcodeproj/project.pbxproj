@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B7455D01EEF08D800C6DD54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */; };
-		9B7455D21EEF08D800C6DD54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455D11EEF08D800C6DD54 /* ViewController.swift */; };
+		9B7455D21EEF08D800C6DD54 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7455D11EEF08D800C6DD54 /* StartController.swift */; };
 		9B7455D51EEF08D800C6DD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455D31EEF08D800C6DD54 /* Main.storyboard */; };
 		9B7455D71EEF08D800C6DD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455D61EEF08D800C6DD54 /* Assets.xcassets */; };
 		9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */; };
@@ -23,6 +23,11 @@
 		9B93F8AC1F0AB8B40008C690 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B93F8A31F0AB8B40008C690 /* play.png */; };
 		9B93F8AD1F0AB8B40008C690 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B93F8A41F0AB8B40008C690 /* ring.png */; };
 		9B93F8AE1F0AB8B40008C690 /* simone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B93F8A51F0AB8B40008C690 /* simone.png */; };
+		9B93F8B01F0AD1C90008C690 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B93F8AF1F0AD1C90008C690 /* reset.png */; };
+		9B93F8B31F0AD8A30008C690 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B21F0AD8A30008C690 /* GameController.swift */; };
+		9B93F8B51F0AD91F0008C690 /* WrongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B41F0AD91F0008C690 /* WrongController.swift */; };
+		9B93F8B71F0AD9A60008C690 /* SimoneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B61F0AD9A60008C690 /* SimoneBrain.swift */; };
+		9B93F8B91F0ADA150008C690 /* SingletonShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8B81F0ADA150008C690 /* SingletonShared.swift */; };
 		9BB3151A1EF3156C005C1D66 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +51,7 @@
 /* Begin PBXFileReference section */
 		9B7455CC1EEF08D700C6DD54 /* psSimone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psSimone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B7455D11EEF08D800C6DD54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B7455D11EEF08D800C6DD54 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		9B7455D41EEF08D800C6DD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B7455D61EEF08D800C6DD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7455D91EEF08D800C6DD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,11 @@
 		9B93F8A31F0AB8B40008C690 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = images/play.png; sourceTree = "<group>"; };
 		9B93F8A41F0AB8B40008C690 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ring.png; path = images/ring.png; sourceTree = "<group>"; };
 		9B93F8A51F0AB8B40008C690 /* simone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simone.png; path = images/simone.png; sourceTree = "<group>"; };
+		9B93F8AF1F0AD1C90008C690 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset.png; path = images/reset.png; sourceTree = "<group>"; };
+		9B93F8B21F0AD8A30008C690 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9B93F8B41F0AD91F0008C690 /* WrongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongController.swift; sourceTree = "<group>"; };
+		9B93F8B61F0AD9A60008C690 /* SimoneBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimoneBrain.swift; sourceTree = "<group>"; };
+		9B93F8B81F0ADA150008C690 /* SingletonShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonShared.swift; sourceTree = "<group>"; };
 		9BB315191EF3156C005C1D66 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Beatles Light Light.ttf"; path = "working/fonts/Beatles Light Light.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -118,7 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				9B7455FD1EEF096B00C6DD54 /* assets */,
-				9B7455D11EEF08D800C6DD54 /* ViewController.swift */,
+				9B7455D11EEF08D800C6DD54 /* StartController.swift */,
+				9B93F8B21F0AD8A30008C690 /* GameController.swift */,
+				9B93F8B41F0AD91F0008C690 /* WrongController.swift */,
+				9B93F8B61F0AD9A60008C690 /* SimoneBrain.swift */,
+				9B93F8B81F0ADA150008C690 /* SingletonShared.swift */,
 				9B7455D31EEF08D800C6DD54 /* Main.storyboard */,
 			);
 			path = psSimone;
@@ -147,12 +161,20 @@
 			children = (
 				9BB3150A1EF3154F005C1D66 /* Images */,
 				9BB315091EF31540005C1D66 /* Fonts */,
+				9B93F8B11F0AD6FB0008C690 /* Support */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		9B93F8B11F0AD6FB0008C690 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				9B7455CF1EEF08D800C6DD54 /* AppDelegate.swift */,
 				9B7455D61EEF08D800C6DD54 /* Assets.xcassets */,
 				9B7455D81EEF08D800C6DD54 /* LaunchScreen.storyboard */,
 				9B7455DB1EEF08D800C6DD54 /* Info.plist */,
 			);
-			name = assets;
+			name = Support;
 			sourceTree = "<group>";
 		};
 		9BB315091EF31540005C1D66 /* Fonts */ = {
@@ -166,6 +188,7 @@
 		9BB3150A1EF3154F005C1D66 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B93F8AF1F0AD1C90008C690 /* reset.png */,
 				9B93F89D1F0AB8B40008C690 /* b2.png */,
 				9B93F89E1F0AB8B40008C690 /* b8.png */,
 				9B93F89F1F0AB8B40008C690 /* bar.png */,
@@ -293,6 +316,7 @@
 				9BB3151A1EF3156C005C1D66 /* Beatles Light Light.ttf in Resources */,
 				9B93F8A91F0AB8B40008C690 /* high.png in Resources */,
 				9B7455DA1EEF08D800C6DD54 /* LaunchScreen.storyboard in Resources */,
+				9B93F8B01F0AD1C90008C690 /* reset.png in Resources */,
 				9B93F8AC1F0AB8B40008C690 /* play.png in Resources */,
 				9B93F8A81F0AB8B40008C690 /* bar.png in Resources */,
 				9B7455D71EEF08D800C6DD54 /* Assets.xcassets in Resources */,
@@ -323,7 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7455D21EEF08D800C6DD54 /* ViewController.swift in Sources */,
+				9B93F8B91F0ADA150008C690 /* SingletonShared.swift in Sources */,
+				9B93F8B71F0AD9A60008C690 /* SimoneBrain.swift in Sources */,
+				9B7455D21EEF08D800C6DD54 /* StartController.swift in Sources */,
+				9B93F8B51F0AD91F0008C690 /* WrongController.swift in Sources */,
+				9B93F8B31F0AD8A30008C690 /* GameController.swift in Sources */,
 				9B7455D01EEF08D800C6DD54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
