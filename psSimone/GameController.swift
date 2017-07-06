@@ -40,6 +40,9 @@ class GameController: UIViewController {
             simoneBrain.arrCopyOfRandomColorsToCompare = simoneBrain.arrRandomColors
         }
         if !simoneBrain.verification(arrOfGameColors[sender.tag]) {
+            let forWrongDisplay = "SCORE : \(simoneBrain.arrRandomColors.count - 1)"
+            SingletonShared.sigletonSharedInstance.scoreForWrongInterface = "\(forWrongDisplay)"
+            SingletonShared.sigletonSharedInstance.saveScore(String(simoneBrain.arrRandomColors.count - 1))
             performSegue(withIdentifier: "wrong", sender: nil)
         }
         simoneBrain.scoreKeeperCounter! += 1
