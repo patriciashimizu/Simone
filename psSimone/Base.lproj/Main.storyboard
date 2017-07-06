@@ -73,7 +73,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pQK-vB-kTp">
-                                <rect key="frame" x="85.5" y="264" width="204" height="139"/>
+                                <rect key="frame" x="86" y="264" width="204" height="139"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIGH SCORE : 13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7Hp-6y-CD4">
                                         <rect key="frame" x="0.0" y="0.0" width="204" height="27"/>
@@ -106,7 +106,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ung-Db-a6m">
-                                <rect key="frame" x="85.5" y="434" width="204" height="28.5"/>
+                                <rect key="frame" x="86" y="434" width="204" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ung-Db-a6m" secondAttribute="height" multiplier="194:27" id="Gmq-Xz-WZc"/>
                                     <constraint firstAttribute="width" constant="204" id="nrf-cC-2Kg"/>
@@ -216,7 +216,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="22" id="HFb-AP-UPF"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="35"/>
+                                                <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
