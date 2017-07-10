@@ -17,15 +17,23 @@ class GameController: UIViewController {
     //---------------
     var arrOfGameColors: [UIButton]!
     var simoneBrain: SimoneBrain!
+    var aTimer: Timer!
     //---------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
         arrOfGameColors = [but1, but2, but3, but4, but5, but6, but7, but8, but9]
-        simoneBrain = SimoneBrain(gameColors: arrOfGameColors)
+        simoneBrain = SimoneBrain(gameColors: arrOfGameColors, timerLabel: self.timerLabel)
         simoneBrain.addRandomColorToArray()
         simoneBrain.startGame()
         scoreKeeper.text = simoneBrain.scoreKeeper
         simoneBrain.loadArrayForComparison()
+        
+        aTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) {_ in
+            if self.simoneBrain.timerLabel.text == "YOUR TURN : 0 s" {
+                self.performSegue(withIdentifier: "start", sender: nil)
+                self.aTimer.invalidate()
+            }
+        }
     }
     //---------------------------------
     override func didReceiveMemoryWarning() {
