@@ -17,7 +17,7 @@
                BlueprintIdentifier = "9B7455CB1EEF08D700C6DD54"
                BuildableName = "psSimone.app"
                BlueprintName = "psSimone"
-               ReferencedContainer = "container:psSimone.xcodeproj">
+               ReferencedContainer = "container:Simone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "9B7455DF1EEF08D800C6DD54"
                BuildableName = "psSimoneTests.xctest"
                BlueprintName = "psSimoneTests"
-               ReferencedContainer = "container:psSimone.xcodeproj">
+               ReferencedContainer = "container:Simone.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "9B7455EA1EEF08D800C6DD54"
                BuildableName = "psSimoneUITests.xctest"
                BlueprintName = "psSimoneUITests"
-               ReferencedContainer = "container:psSimone.xcodeproj">
+               ReferencedContainer = "container:Simone.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "9B7455CB1EEF08D700C6DD54"
             BuildableName = "psSimone.app"
             BlueprintName = "psSimone"
-            ReferencedContainer = "container:psSimone.xcodeproj">
+            ReferencedContainer = "container:Simone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "9B7455CB1EEF08D700C6DD54"
             BuildableName = "psSimone.app"
             BlueprintName = "psSimone"
-            ReferencedContainer = "container:psSimone.xcodeproj">
+            ReferencedContainer = "container:Simone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "9B7455CB1EEF08D700C6DD54"
             BuildableName = "psSimone.app"
             BlueprintName = "psSimone"
-            ReferencedContainer = "container:psSimone.xcodeproj">
+            ReferencedContainer = "container:Simone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

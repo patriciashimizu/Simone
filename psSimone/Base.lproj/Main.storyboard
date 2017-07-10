@@ -99,6 +99,9 @@
                                             <constraint firstAttribute="width" secondItem="00c-vK-xrO" secondAttribute="height" multiplier="537:121" id="zti-FT-v0h"/>
                                         </constraints>
                                         <state key="normal" image="reset.png"/>
+                                        <connections>
+                                            <action selector="resetHighScore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bzl-kE-yjn"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
