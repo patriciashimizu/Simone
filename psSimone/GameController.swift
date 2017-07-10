@@ -13,6 +13,7 @@ class GameController: UIViewController {
     @IBOutlet weak var but8: UIButton!
     @IBOutlet weak var but9: UIButton!
     @IBOutlet weak var scoreKeeper: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
     //---------------
     var arrOfGameColors: [UIButton]!
     var simoneBrain: SimoneBrain!

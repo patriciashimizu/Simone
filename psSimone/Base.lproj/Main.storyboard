@@ -313,14 +313,24 @@
                                             <constraint firstAttribute="width" constant="280" id="uxH-mJ-evu"/>
                                         </constraints>
                                     </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9k-EV-FhU">
+                                        <rect key="frame" x="16" y="623.5" width="343" height="23.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="Mxr-tx-7H4" firstAttribute="centerX" secondItem="MNw-Tq-WIg" secondAttribute="centerX" id="0e5-4K-gYM"/>
                                     <constraint firstItem="Mxr-tx-7H4" firstAttribute="top" secondItem="MNw-Tq-WIg" secondAttribute="top" id="1R6-Iq-6w6"/>
+                                    <constraint firstAttribute="trailing" secondItem="T9k-EV-FhU" secondAttribute="trailing" constant="16" id="5to-7M-v7g"/>
+                                    <constraint firstItem="T9k-EV-FhU" firstAttribute="leading" secondItem="MNw-Tq-WIg" secondAttribute="leading" constant="16" id="HCR-Ar-PuB"/>
                                     <constraint firstItem="nLT-Fl-6wZ" firstAttribute="centerY" secondItem="aSr-D4-ssP" secondAttribute="centerY" id="Kvk-Df-BGx">
                                         <variation key="heightClass=compact" constant="-0.5"/>
                                     </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="T9k-EV-FhU" secondAttribute="bottom" constant="20" id="Y1m-7B-BkD"/>
                                     <constraint firstItem="nLT-Fl-6wZ" firstAttribute="centerX" secondItem="MNw-Tq-WIg" secondAttribute="centerX" id="dV5-Nr-1kQ">
                                         <variation key="heightClass=compact" constant="185.5"/>
                                     </constraint>
@@ -360,6 +370,7 @@
                         <outlet property="but8" destination="7lG-zo-PTF" id="rhq-6a-AEP"/>
                         <outlet property="but9" destination="9yH-Yl-WyR" id="0Qq-dd-4lG"/>
                         <outlet property="scoreKeeper" destination="81Q-Xp-tFQ" id="oiR-UK-tu2"/>
+                        <outlet property="timerLabel" destination="T9k-EV-FhU" id="wvK-3M-pb4"/>
                         <segue destination="9Ug-mb-zlN" kind="presentation" identifier="wrong" id="AkX-iP-lgt"/>
                     </connections>
                 </viewController>
@@ -519,6 +530,6 @@
         <image name="simone.png" width="512" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4GA-2H-pkG"/>
+        <segue reference="cU0-2l-HSA"/>
     </inferredMetricsTieBreakers>
 </document>
