@@ -52,6 +52,7 @@ class SimoneBrain {
                 self.timerLabel.text = "YOUR TURN : \(sec) s"
                 if sec == 0 {
                     self.aTimer.invalidate()
+                    SingletonShared.sigletonSharedInstance.saveScore(String(self.arrRandomColors.count - 1))
                 }
                 sec -= 1
             }

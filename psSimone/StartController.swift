@@ -19,6 +19,13 @@ class StartController: UIViewController {
         highscoreLabel.text = "HIGHSCORE : 0"
         SingletonShared.sigletonSharedInstance.resetHighscore()
     }
+    //---------------------------------
+    @IBAction func goToWebPage(_ sender: UIButton) {
+        if let url = NSURL(string: "http://www.mariogeneau.com") {
+            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        }
+    }
+    
 
 }
 //==================================================
